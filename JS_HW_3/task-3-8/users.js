@@ -239,5 +239,6 @@ usersList.forEach(user => {
 							<p>${user.address.city}</p>
 							<p>${user.address.street}</p>
 							<p>${user.address.suite}</p>
-							<p>-${user.address.zipcode}</p></div></div>`)
+							<p>-${user.address.zipcode}</p>
+							</div></div>`)
 })
