@@ -125,30 +125,3 @@ for (let i = 0; i < coursesArray.length; i++) {
 
     document.body.appendChild(courseBlock);
 }
-// for (let i = 0; i < coursesArray.length; i++) {
-//     const course = coursesArray[i];
-//     const courseBlock = document.createElement('div');
-//     courseBlock.className = 'course-block';
-//
-//     const titleBlock = document.createElement('h1');
-//     titleBlock.className = 'course-title';
-//     titleBlock.innerText = course.title;
-//
-//     const durationBlock = document.createElement('p');
-//     durationBlock.className = 'course-duration';
-//     durationBlock.innerText = `Duration: ${course.monthDuration} months, ${course.hourDuration} hours`;
-//
-//     const modulesList = document.createElement('ul');
-//     modulesList.className = 'course-modules';
-//     for (let j = 0; j < course.modules.length; j++) {
-//         const moduleItem = document.createElement('li');
-//         moduleItem.innerText = course.modules[j];
-//         modulesList.appendChild(moduleItem);
-//     }
-//
-//     courseBlock.appendChild(titleBlock);
-//     courseBlock.appendChild(durationBlock);
-//     courseBlock.appendChild(modulesList);
-//
-//     document.body.appendChild(courseBlock);
-// }
