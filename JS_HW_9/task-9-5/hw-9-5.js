@@ -105,8 +105,6 @@ for (let i = 0; i < coursesArray.length; i++) {
     durationBlock.appendChild(durationText);
     durationBlock.appendChild(durationHours);
 
-
-// , ${course.hourDuration} hours
     const modulesList = document.createElement('ul');
     modulesList.className = 'course-modules';
     modulesList.style.border = '1px solid black';
@@ -119,7 +117,7 @@ for (let i = 0; i < coursesArray.length; i++) {
         moduleItem.style.margin = '5px';
     }
 
-    courseBlock.appendChild(titleBlock);
+    cours-eBlock.appendChild(titleBlock);
     courseBlock.appendChild(durationBlock);
     courseBlock.appendChild(modulesList);
 
